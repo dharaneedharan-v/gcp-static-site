@@ -1,0 +1,7 @@
+# Ignore Terraform provider binaries and state files
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore your GCP JSON key (for security)
+qwiklabs-gcp-04-bca3b539409a-470fd1168cac.json
